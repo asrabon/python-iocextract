@@ -36,7 +36,7 @@ URL_SPLIT_STR = r"[>\"'\),};]"
 GENERIC_URL_RE = re.compile(r"""
         (
             # Scheme.
-            [fhstu]\S\S?[px]s?
+            [fhmstu]\S\S?[pwx]s?
 
             # One of these delimiters/defangs.
             (?:

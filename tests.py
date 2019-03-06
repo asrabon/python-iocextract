@@ -327,6 +327,8 @@ class TestExtractors(unittest.TestCase):
             "ftps://",
             "http:// ",
             "HXXP://",
+            "meow://",
+            "meows://"
         ]
 
         append_list = [
@@ -606,6 +608,7 @@ class TestExtractors(unittest.TestCase):
             'http__example.com/test',
             'http:__example.com/test',
             'http:\\\\example.com/test',
+            'meow://example.com/test'
         ]
 
         for content in content_list:
